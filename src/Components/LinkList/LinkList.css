@@ -1,0 +1,28 @@
+.linksTable {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.linksTable tbody{
+    display:block;
+    width: 100%;
+    overflow: auto;
+    height: 200px;
+  }
+  
+  .linksTable thead tr {
+     display: table;
+  }
+  
+  .linksTable thead {
+    background: black;
+    color:#fff;
+  }
+  
+  .linksTable th, .linksTable td {
+    height: 70px;
+    padding: 5px;
+    text-align: left;
+    width: 200px;
+  }

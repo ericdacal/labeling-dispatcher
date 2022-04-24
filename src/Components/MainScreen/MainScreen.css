@@ -1,0 +1,27 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    float: left;
+    text-align: left; 
+    background-color: rgb(224, 166, 166);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navbar-brand {
+    height: 80px;
+    line-height: 80px;
+  }
+
+
+
+.content { 
+    display: block;
+    flex-direction: row;
+    align-items: center;
+}
+
+.finish {
+    margin-top: 70px;
+}

@@ -1,0 +1,37 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pocamplify-staging-104503-authRole",
+      "UnauthRoleArn": "arn:aws:iam::331736361435:role/amplify-pocamplify-staging-104503-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::331736361435:role/amplify-pocamplify-staging-104503-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-pocamplify-staging-104503-deployment",
+      "UnauthRoleName": "amplify-pocamplify-staging-104503-unauthRole",
+      "StackName": "amplify-pocamplify-staging-104503",
+      "StackId": "arn:aws:cloudformation:eu-west-1:331736361435:stack/amplify-pocamplify-staging-104503/446e4dd0-c229-11ec-860b-06cc605ef5f3",
+      "AmplifyAppId": "d9zf7duseoo7c"
+    },
+    "categories": {
+      "auth": {
+        "pocamplify": {
+          "userPoolId": "eu-west-1_oJQ91G9bb",
+          "userPoolName": "Labeling VCD",
+          "webClientId": "7c5vup6ea7cgf2gge5thrg59vm",
+          "nativeClientId": "7c5vup6ea7cgf2gge5thrg59vm"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d9zf7duseoo7c",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "getLinks": {
+          "deploymentBucketName": "amplify-pocamplify-staging-104503-deployment",
+          "s3Key": "amplify-builds/getLinks-35664e37354959674b2b-build.zip"
+        }
+      }
+    }
+  }
+}

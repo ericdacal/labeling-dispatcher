@@ -1,0 +1,10 @@
+{
+  "resourceName": "linksTable",
+  "tableName": "linksUserTable",
+  "partitionKey": {
+    "fieldName": "email",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
